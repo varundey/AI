@@ -2,7 +2,7 @@
 #include <math.h>
 
 char check(int n, int arr[n][n], int i, int j){
-	if(arr[i][i]==0){
+	if(arr[i][j]==0){
 		return 'Y';
 	}
 	else{
